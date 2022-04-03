@@ -18,7 +18,7 @@ string minWindow(string s, string t) {
             if (count == 0) {
                 while (count == 0) {
                     if (length > j - i + 1) {
-                        length = min(length, j - i + 1);
+                        length = j - i + 1;
                         start = i;
                     }
                 m[s[i]]++;
